@@ -1,6 +1,6 @@
 module go.signoz.io/signoz
 
-go 1.21.3
+go 1.25.0
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.20.0
@@ -40,14 +40,14 @@ require (
 	github.com/prometheus/common v0.54.0
 	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/rs/cors v1.11.0
-	github.com/russellhaering/gosaml2 v0.9.0
-	github.com/russellhaering/goxmldsig v1.2.0
+	github.com/russellhaering/gosaml2 v0.12.0
+	github.com/russellhaering/goxmldsig v1.6.1
 	github.com/samber/lo v1.38.1
 	github.com/sethvargo/go-password v0.2.0
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/soheilhy/cmux v0.1.5
 	github.com/srikanthccv/ClickHouse-go-mock v0.7.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/component v0.102.1
 	go.opentelemetry.io/collector/confmap v0.102.1
 	go.opentelemetry.io/collector/confmap/converter/expandconverter v0.102.0
@@ -87,7 +87,7 @@ require (
 	github.com/alecthomas/units v0.0.0-20231202071711-9a357b53e9c9 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/aws/aws-sdk-go v1.53.16 // indirect
-	github.com/beevik/etree v1.1.0 // indirect
+	github.com/beevik/etree v1.7.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
@@ -120,7 +120,7 @@ require (
 	github.com/hashicorp/go-version v1.7.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/jonboulle/clockwork v0.2.2 // indirect
+	github.com/jonboulle/clockwork v0.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
